@@ -1,4 +1,13 @@
 import '../index.css';
+import image1 from '../images/image1.png';
+import image11 from '../images/image11.png';
+import image12 from '../images/image12.png';
+import image2 from '../images/image2.png';
+import image21 from '../images/image21.png';
+import image22 from '../images/image22.png';
+import image3 from '../images/image3.png';
+import image31 from '../images/image31.png';
+import image32 from '../images/image32.png';
 
 const headerSearchInput = document.querySelector('.header__search-input');
 const headerSearchButton = document.querySelector('.header__search-button');
@@ -86,21 +95,21 @@ const cardData = {
         description: '«Рождение Венеры» — это картина итальянского художника Сандро Боттичелли, которую он завершил приблизительно к 1485 году.',
         price: '1 000 000 $',
         oldPrice: '2 000 000 $',
-        images: ['./images/image1.png', './images/image11.png', './images/image12.png']
+        images: [image1, image11, image12]
     },
     2: {
         title: '«Тайная вечеря» Леонардо да Винчи',
         description: '«Тайная вечеря» — это одна из самых известных картин Леонардо да Винчи.',
         price: '3 000 000 $',
         oldPrice: '',
-        images: ['./images/image2.png', './images/image21.png', './images/image22.png']
+        images: [image2, image21, image22]
     },
     3: {
         title: '«Сотворение Адама» Микеланджело',
         description: '«Сотворение Адама» — это фреска, написанная Микеланджело.',
         price: '5 000 000 $',
         oldPrice: '6 000 000 $',
-        images: ['./images/image3.png', './images/image31.png', './images/image32.png']
+        images: [image3, image31, image32]
     }
 };
 
